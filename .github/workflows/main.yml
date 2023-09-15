@@ -3,6 +3,7 @@ on:
   push:
     tags:
       - 'Stg.v[0-9]+'
+      - 'Prd.v[0-9]+'
 jobs:
   my-job:
     runs-on: ubuntu-latest
